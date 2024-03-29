@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+}
+.nav-item{
+    background-color: rgb(255, 204, 0);
+    font-size: large;
+    margin-right: 3px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+.imglogo{
+    width: 100px;
+    height:  100px; 
+    margin-left: auto;
+}
+.barrabusqueda{
+    margin-left: auto;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+
+}
+.ccompra{
+    margin-left: auto;
+}
+.carousel-item img {
+    max-width: 100%; /* Establece el ancho máximo de las imágenes al 100% del contenedor */
+    max-height: 500px; /* Establece la altura máxima de las imágenes a 300px */
+    object-fit: contain; /* Escala las imágenes para que cubran el contenedor manteniendo la relación de aspecto */
+}
